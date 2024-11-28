@@ -1,0 +1,3 @@
+C:/Users/mao/Desktop/bjxn/sonar/dll_image_stitch/libs/build/CMakeFiles/stitch_images.dir
+C:/Users/mao/Desktop/bjxn/sonar/dll_image_stitch/libs/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/mao/Desktop/bjxn/sonar/dll_image_stitch/libs/build/CMakeFiles/ZERO_CHECK.dir
