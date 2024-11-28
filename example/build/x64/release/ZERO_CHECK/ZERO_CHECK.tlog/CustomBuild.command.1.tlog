@@ -1,0 +1,10 @@
+^C:\USERS\MAO\DESKTOP\BJXN\SONAR\DLL_IMAGE_STITCH\EXAMPLE\BUILD\CMAKEFILES\265FA9D0BEBB6DD2E7101762B92A5DDD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mao/Desktop/bjxn/sonar/dll_image_stitch/example -BC:/Users/mao/Desktop/bjxn/sonar/dll_image_stitch/example/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/mao/Desktop/bjxn/sonar/dll_image_stitch/example/build/example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

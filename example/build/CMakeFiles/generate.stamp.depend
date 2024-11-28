@@ -1,0 +1,37 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+C:/Users/mao/Desktop/bjxn/sonar/dll_image_stitch/example/CMakeLists.txt
+C:/Users/mao/Desktop/bjxn/sonar/dll_image_stitch/example/build/CMakeFiles/3.26.0-rc2/CMakeCCompiler.cmake
+C:/Users/mao/Desktop/bjxn/sonar/dll_image_stitch/example/build/CMakeFiles/3.26.0-rc2/CMakeCXXCompiler.cmake
+C:/Users/mao/Desktop/bjxn/sonar/dll_image_stitch/example/build/CMakeFiles/3.26.0-rc2/CMakeRCCompiler.cmake
+C:/Users/mao/Desktop/bjxn/sonar/dll_image_stitch/example/build/CMakeFiles/3.26.0-rc2/CMakeSystem.cmake
+C:/mao/soft/open3d-devel-windows-amd64-0.17.0/CMake/Open3DConfig.cmake
+C:/mao/soft/open3d-devel-windows-amd64-0.17.0/CMake/Open3DConfigVersion.cmake
+C:/mao/soft/open3d-devel-windows-amd64-0.17.0/CMake/Open3DTargets-release.cmake
+C:/mao/soft/open3d-devel-windows-amd64-0.17.0/CMake/Open3DTargets.cmake
+C:/mao/soft/opencv/build/OpenCVConfig-version.cmake
+C:/mao/soft/opencv/build/OpenCVConfig.cmake
+C:/mao/soft/opencv/build/x64/vc15/lib/OpenCVConfig.cmake
+C:/mao/soft/opencv/build/x64/vc15/lib/OpenCVModules-debug.cmake
+C:/mao/soft/opencv/build/x64/vc15/lib/OpenCVModules-release.cmake
+C:/mao/soft/opencv/build/x64/vc15/lib/OpenCVModules.cmake

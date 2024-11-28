@@ -1,0 +1,47 @@
+cmake_minimum_required(VERSION 3.10)
+project(example)
+
+# 设置 OpenCV 的固定路径
+set(OpenCV_DIR "./opencv46")
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+
+# 打印 OpenCV 的版本和路径
+message(STATUS "OpenCV version: ${OpenCV_VERSION}")
+message(STATUS "OpenCV include directories: ${OpenCV_INCLUDE_DIRS}")
+message(STATUS "OpenCV libraries: ${OpenCV_LIBS}")
+
+# 设置 C++17 标准
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_EXTENSIONS OFF)  # 禁用编译器扩展
+
+# 添加Open3D根目录路径到CMake的搜索路径
+list(APPEND CMAKE_PREFIX_PATH "C:\\mao\\soft\\open3d-devel-windows-amd64-0.17.0")
+find_package(Open3D REQUIRED)
+
+# 检查库是否找到
+if(NOT OpenCV_FOUND)
+    message(FATAL_ERROR "OpenCV not found!")
+endif()
+
+if(NOT Open3D_FOUND)
+    message(FATAL_ERROR "Open3D not found!")
+endif()
+
+# 添加可执行文件
+add_executable(example main.cpp)
+set(INCLUDE_PATH "./include")
+include_directories(${INCLUDE_PATH})
+
+# 链接库
+# target_link_libraries(example "C:\\Users\\mao\\Desktop\\bjxn\\sonar\\dll_image_stitch\\build\\libs\\Release\\stitch_images.lib")
+target_link_libraries(example "stitch_images")
+target_link_libraries(example ${OpenCV_LIBS} Open3D::Open3D)
+
+# 添加自定义命令以复制 Open3D DLL
+add_custom_command(TARGET example POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy
+    "${CMAKE_PREFIX_PATH}/bin/Open3D.dll"
+    $<TARGET_FILE_DIR:example>
+    COMMENT "Copying Open3D.dll to output directory")
